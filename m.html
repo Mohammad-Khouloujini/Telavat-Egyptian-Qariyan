@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تلاوت قاریان مصری</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #020a25;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .qari-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .qari-item {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .qari-item img {
+            width: 120px; /* Width of the images */
+            height: auto; /* Keeps the aspect ratio */
+            border-radius: 50%; /* Makes the images circular */
+        }
+
+        .verse {
+            display: block;
+            margin: 20px auto;
+            font-size: 1.5em; /* Increased font size for better visibility */
+            color: #007BFF; /* Color for the verse */
+            text-align: center;
+            border: 2px solid#020a25; /* Border around the verse */
+            padding: 15px;
+            border-radius: 10px; /* Rounded corners */
+            background-color: #f1f0ff; /* Light background color */
+            max-width: 800px; /* Limit the width */
+        }
+
+        @media only screen and (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            header {
+                padding: 10px;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            .qari-item img {
+                width: 80px; /* Adjusting image size for smaller screens */
+            }
+
+            .verse {
+                font-size: 1.2em; /* Smaller font size for the verse on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>تلاوت قاریان مصری</h1>
+        <nav>
+            <ul>
+                <li><a href="#recitations">تلاوت‌ها</a></li>
+                <li><a href="#qari">قاریان</a></li>
+                <li><a href="#about">درباره ما</a></li>
+                <li><a href="#contact">تماس با ما</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="verse">
+            <h2>آیه‌ای از قرآن</h2>
+            <span class="verse">اِنَّ هذَا القُرآنَ یَهدی لِلَّتی هیَ اَقوَم</span>
+        </section>
+        
+        <section id="recitations">
+            <h2>آخرین تلاوت‌ها</h2>
+            <article>
+                <h3>تلاوت ۱</h3>
+                <p>توضیحاتی درباره تلاوت اول.</p>
+            </article>
+            <article>
+                <h3>تلاوت ۲</h3>
+                <p>توضیحاتی درباره تلاوت دوم.</p>
+            </article>
+        </section>
+        
+        <section id="qari">
+            <h2>قاریان محبوب</h2>
+            <div class="qari-list">
+                <div class="qari-item">
+                    <img src="./Egyptian Qaries/Abdolbaset.jpg" alt="عبدالباسط محمد عبدالصمد">
+                    <p>عبدالباسط محمد عبدالصمد</p>
+                </div>
+                <div class="qari-item">
+                    <img src="./Egyptian Qaries/Mostafa Esmaeil.jpg" alt="مصطفی اسماعیل">
+                    <p>مصطفی اسماعیل</p>
+                </div>
+                <div class="qari-item">
+                    <img src="./Egyptian Qaries/Shahat.jpg" alt="شحات محمد انور">
+                    <p>شحات محمد انور</p>
+                </div>
+                <div class="qari-item">
+                    <img src="./Egyptian Qaries/Menshawi.jpg" alt="محمد صدیق منشاوی">
+                    <p>محمد صدیق منشاوی</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>درباره ما</h2>
+            <p>متنی درباره وب‌سایت و هدف آن.</p>
+        </section>
+    </main>
+    <footer>
+        <p>حق کپی رایت © 2024 وب‌  
